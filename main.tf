@@ -7,6 +7,6 @@ resource "aws_instance" "web" {
   ami           = "ami-0aa2b7722dc1b5612"
   tags = {
     Name = "HelloWorld"
-    Contanct ="sreeharsa@gmail.com"
+    Contact ="sreeharsha@gmail.com"
   }
 }
