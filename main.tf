@@ -7,6 +7,5 @@ resource "aws_instance" "web" {
   ami           = "ami-0aa2b7722dc1b5612"
   tags = {
     Name = "Terraform_Instance_through_OPA"
-    Contat = "sreeharsha@gmail.com"
   }
 }
